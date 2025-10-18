@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abubakar Umar — Portfolio</title>
+  <meta name="description" content="Portfolio of Abubakar Umar — web developer / student" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/favicon.png" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <a class="brand" href="#">Abubakar Umar</a>
+      <nav class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <h1>Hi, I'm <span class="accent">Abubakar umar</span></h1>
+          <p class="lead">Student • Web Developer • Problem solver</p>
+          <p><a class="btn" href="#projects">See my work</a>
+             <a class="btn ghost" href="files/YourName_Resume.pdf" download>Download Resume</a></p>
+        </div>
+        <div class="hero-image">
+          <img src="images/avatar.jpg" alt="Your Name"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Selected Projects</h2>
+      <div class="projects-grid">
+        <!-- Repeat this card for each project -->
+        <article class="card">
+          <img src="images/project1.png" alt="Project 1 screenshot">
+          <div class="card-body">
+            <h3>Intrusion Detection System</h3>
+            <p class="muted">it's an Intrusion Detection System Using Machine Learning KNN Algorithm,it Detect an Intrusion From a Hacker,and send the Alart to the Network administrator.</p>
+            <p class="small">Tech: python • HTML • CSS • JavaScript</p>
+            <div class="card-actions">
+              <a href="https://github.com/yourusername/project1" target="_blank">Code</a>
+              <a href="https://your-demo-url" target="_blank">Live</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    //<section id="projects" class="container section">
+      
+      <div class="projects-grid">
+        <!-- Repeat this card for each project -->
+        <article class="card">
+          <img src="images/project2.png" alt="Project 1 screenshot">
+          <div class="card-body">
+            <h3>Simple Calculator</h3>
+            <p class="muted">A small Calculator for Doing Simple Mathematical operations</p>
+            <p class="small">Tech: HTML • CSS • JavaScript</p>
+            <div class="card-actions">
+              <a href="https://github.com/yourusername/project1" target="_blank">Code</a>
+              <a href="https://your-demo-url" target="_blank">Live</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>I am a Computer Science student at KASU. I build web apps, Android apps and some small cyber security Projects. Skills: HTML, CSS, JavaScript, Python, Java, Kotlin.</p>
+      <ul class="skills">
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Android (Kotlin/Java)</li>
+      </ul>
+    </section>
+
+    <section id="resume" class="container section">
+      <h2>Resume & Experience</h2>
+      <p>Highlight: Final-year Computer Science student, built an Expense Tracker app using Kotlin, AI Chatbot prototype in Python.</p>
+      <p><a class="btn" href="files/YourName_Resume.pdf" download>Download Resume (PDF)</a></p>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:youremail@example.com">abubakumar91@gmail.com</a></p>
+
+      <!-- Simple form using Formspree (free tier) or replace with your backend -->
+      <form id="contactForm" action="https://formspree.io/f/xpwybevr" method="POST">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="_replyto" required>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Abubakar Umar — <a href="https://github.com/yourusername" target="_blank">GitHub</a> • <a href="#">LinkedIn</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
